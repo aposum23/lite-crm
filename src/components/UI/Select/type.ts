@@ -1,6 +1,7 @@
 type OptionType = {
     key: number,
-    value: string
+    value: string,
+    selected?: boolean
 }
 
 export type SELECT_INPUT_PROPS_TYPE = {
